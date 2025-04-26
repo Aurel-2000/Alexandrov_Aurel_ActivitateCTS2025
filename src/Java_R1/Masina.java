@@ -8,8 +8,8 @@ public class Masina {
 
     private String name;
 
-    void pornesteMasina(){
-        System.out.println("Misina a pornit");
+    public void pornesteMasina(){
+        System.out.println("Masina a pornit");
     }
 
     public String getName() {
