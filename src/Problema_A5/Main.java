@@ -6,7 +6,7 @@ public class Main {
         IMedicament medicamentSpital = new MedicamentSpital();
         medicamentSpital.achizitioneazaMedicament();
 
-        System.out.println("\n\n");
+        System.out.println("\n");
 
         MedicamentFarmacie medicamentFarmacie = new MedicamentFarmacie();
         IMedicament adapter = new MedicamentAdapter(medicamentFarmacie);
